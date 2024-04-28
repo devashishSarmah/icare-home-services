@@ -45,7 +45,7 @@ http://www.tooplate.com/view/2098-health
                <div class="row">
 
                     <div class="col-md-4 col-sm-5">
-                         <p>Welcome to a Professional Health Care</p>
+                         <p>Welcome to a ICare Home Services</p>
                     </div>
                          
                     <div class="col-md-8 col-sm-7 text-align-right">
@@ -139,7 +139,7 @@ http://www.tooplate.com/view/2098-health
 
                     <div class="col-md-6 col-sm-6">
                          <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Your <i class="fa fa-h-square"></i>ealth Center</h2>
+                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to ICare Home Services</h2>
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
                                    <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae velit volutpat venenatis.</p>
                                    <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis. Ut placerat, diam a tempus vehicula.</p>
@@ -452,9 +452,7 @@ http://www.tooplate.com/view/2098-health
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-4 col-sm-6">
                               <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2018 Your Company 
-                                   
-                                   | Design: Tooplate</p>
+                                   <p>Copyright &copy; <span id="year"></span> ICare Home Services</p>
                               </div>
                          </div>
                          <div class="col-md-6 col-sm-6">
@@ -485,6 +483,10 @@ http://www.tooplate.com/view/2098-health
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
+
+     <script>
+          document.getElementById('year').innerHTML = `${new Date().getFullYear()}`;
+     </script>
 
 </body>
 </html>
