@@ -1004,6 +1004,10 @@ footer a:hover {
     border-radius: 16px;
 }
 
+.mb-custom {
+    margin-bottom: 20px;
+}
+
 /*---------------------------------------
    RESPONSIVE STYLES
 -----------------------------------------*/
